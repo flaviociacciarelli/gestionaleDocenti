@@ -6,7 +6,6 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000g\u0000e\u0000s\u0000t\u0000i\u0000o\u0000n\u0000a\u0000l\u0000e\u0000D\u0000o\u0000c\u0000e\u0000n\u0000t\u0000i\u0000\r\u0000 \u0000#\u0000 \u0000g\u0000e\u0000s\u0000t\u0000i\u0000o\u0000n\u0000a\u0000l\u0000e\u0000D\u0000o\u0000c\u0000e\u0000n\u0000t\u0000i\u0000\r\u0000 \u0000",
   "main": "server.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -21,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/flaviociacciarelli/gestionaleDocenti/issues"
   },
-  "homepage": "https://github.com/flaviociacciarelli/gestionaleDocenti#readme"
+  "homepage": "https://github.com/flaviociacciarelli/gestionaleDocenti#readme",
+  "devDependencies": {}
 }
