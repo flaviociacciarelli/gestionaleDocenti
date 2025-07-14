@@ -1,46 +1,27 @@
-[
-  {
-    "infoPersonali": {
-      "nome": "Angelo",
-      "cognome": "Ciacciarelli",
-      "email": "flavciac@gmail.com",
-      "telefono": "2332474747",
-      "dataNascita": "2025-07-05",
-      "cf": "CRDVFH0GGGFAsags"
-    },
-    "lavoro": {
-      "materiaInsegnata": "5",
-      "dataAssunzione": "2025-07-13"
-    },
-    "residenza": {
-      "via": "le mani dal naso",
-      "cap": "00135",
-      "comune": "rm",
-      "provincia": "RM",
-      "nazione": "Italy"
-    },
-    "note": "dddd"
-  },
-  {
-    "infoPersonali": {
-      "nome": "Angelo",
-      "cognome": "Ciacciarelli",
-      "email": "flavciac@gmail.com",
-      "telefono": "2332474747",
-      "dataNascita": "2025-07-02",
-      "cf": "CRDVFH0GGGFAsags"
-    },
-    "lavoro": {
-      "materiaInsegnata": "3",
-      "dataAssunzione": "2025-07-09"
-    },
-    "residenza": {
-      "via": "le mani dal naso",
-      "cap": "00135",
-      "comune": "rm",
-      "provincia": "RM",
-      "nazione": "Italy"
-    },
-    "note": "dddd"
-  }
-]
+{
+  "docenti": [
+    {
+      "infoPersonali": {
+        "nome": "valr",
+        "cognome": "alsjdal",
+        "email": "ifno@gaa.it",
+        "telefono": "1264848494",
+        "dataNascita": "2025-07-10",
+        "cf": "fjfjfjfjfjfjfjfj"
+      },
+      "lavoro": {
+        "materiaInsegnata": "Inglese",
+        "dataAssunzione": "2025-07-04"
+      },
+      "residenza": {
+        "via": "",
+        "cap": "",
+        "comune": "",
+        "provincia": "",
+        "nazione": ""
+      },
+      "note": "sd,andjlk",
+      "id": "47o5"
+    }
+  ]
+}
