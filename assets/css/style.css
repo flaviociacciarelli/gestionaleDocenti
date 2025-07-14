@@ -1,5 +1,12 @@
-.formDocente {
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#formDocente {
     width: 70%;
+    margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -9,4 +16,8 @@
 
 .inputLabel{
     width: 30%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
+
