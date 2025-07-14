@@ -2,5 +2,43 @@
   {
     "nome": "valeriocorda",
     "email": "info@vlaa.it"
+  },
+  {
+    "nome": "Angelo",
+    "cognome": "Ciacciarelli",
+    "email": "flavciac@gmail.com",
+    "telefono": "2332474747",
+    "dataNascita": "2025-07-08",
+    "cf": "CRDVFH0GGGFAsags",
+    "note": "dddd",
+    "materiaInsegnata": "1",
+    "dataAssunzione": "2025-07-22",
+    "via": "le mani dal naso",
+    "cap": "00135",
+    "comune": "rm",
+    "provincia": "RM",
+    "nazione": "Italy"
+  },
+  {
+    "infoPersonali": {
+      "nome": "Angelo",
+      "cognome": "Ciacciarelli",
+      "email": "flavciac@gmail.com",
+      "telefono": "2332474747",
+      "dataNascita": "2025-07-05",
+      "cf": "CRDVFH0GGGFAsags"
+    },
+    "lavoro": {
+      "materiaInsegnata": "5",
+      "dataAssunzione": "2025-07-13"
+    },
+    "residenza": {
+      "via": "le mani dal naso",
+      "cap": "00135",
+      "comune": "rm",
+      "provincia": "RM",
+      "nazione": "Italy"
+    },
+    "note": "dddd"
   }
 ]

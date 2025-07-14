@@ -4,20 +4,39 @@
     box-sizing: border-box;
 }
 
+.containerTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #formDocente {
-    width: 70%;
-    margin-left: 15%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 2.5%;
+    gap:30px;
 }
 
 .inputLabel{
-    width: 30%;
+    width: 45%;
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
+.containerIndirizzo{
+    width: 100%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+.salva{
+    width: 20%;
+    display: block;
+}
