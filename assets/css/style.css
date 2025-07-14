@@ -1,0 +1,12 @@
+.formDocente {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5%;
+}
+
+.inputLabel{
+    width: 30%;
+}
