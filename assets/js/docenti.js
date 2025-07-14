@@ -15,6 +15,7 @@ fetch("http://localhost:3000/api/docenti")
       row.innerHTML = `
       <td class="col">${docente.infoPersonali.nome}</td>
       <td class="col">${docente.infoPersonali.cognome}</td>
+    <td class="col">${docente.infoPersonali.sesso}</td>
       <td class="col">${docente.infoPersonali.email}</td>
       <td class="col">${docente.infoPersonali.telefono}</td>
       <td class="col">${docente.infoPersonali.dataNascita}</td>

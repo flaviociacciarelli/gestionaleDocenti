@@ -4,6 +4,7 @@ document.getElementById("formDocente").addEventListener("submit", function (e) {
     infoPersonali: {
       nome: document.getElementById("nome").value.trim(),
       cognome: document.getElementById("cognome").value.trim(),
+      sesso: document.getElementById("sesso").value.trim(),
       email: document.getElementById("email").value.trim(),
       telefono: document.getElementById("telefono").value.trim(),
       dataNascita: document.getElementById("dataNascita").value.trim(),

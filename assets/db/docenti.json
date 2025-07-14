@@ -1,27 +1,7 @@
 {
   "docenti": [
     {
-      "infoPersonali": {
-        "nome": "valr",
-        "cognome": "alsjdal",
-        "email": "ifno@gaa.it",
-        "telefono": "1264848494",
-        "dataNascita": "2025-07-10",
-        "cf": "fjfjfjfjfjfjfjfj"
-      },
-      "lavoro": {
-        "materiaInsegnata": "Inglese",
-        "dataAssunzione": "2025-07-04"
-      },
-      "residenza": {
-        "via": "",
-        "cap": "",
-        "comune": "",
-        "provincia": "",
-        "nazione": ""
-      },
-      "note": "sd,andjlk",
-      "id": "47o5"
+
     }
   ]
 }
