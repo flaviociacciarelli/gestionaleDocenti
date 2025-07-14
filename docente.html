@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Dati docente</title>
+</head>
+<body>
+  <h1>Dati docente</h1>
+  <div id="infoDocente"></div>
+
+  <script>
+    // 1️⃣ Ottieni l'ID docente dal pathname: /docente/id
+    const path = window.location.pathname;
+    const idDocente = path.split("/").pop();
+    
+
+    if (!idDocente) {
+      document.getElementById('infoDocente').textContent = 'ID docente non fornito.';
+    } else {
+      // 2️⃣ Richiama l'API per un singolo docente
+      fetch(`/api/docente/${idDocente}`)
+        .then(res => {
+          if (!res.ok) throw new Error('docente non trovato');
+          return res.json();
+        })
+        .then(docente => {
+          // 3️⃣ Mostra i dati in pagina
+          document.getElementById('infoDocente').innerHTML = `
+            <ul>
+              <li><strong>Nome:</strong> ${docente.nome}</li>
+              <li><strong>Cognome:</strong> ${docente.cognome}</li>
+              <li><strong>Email:</strong> ${docente.email}</li>
+              <li><strong>Telefono:</strong> ${docente.telefono}</li>
+              <li><strong>Corso:</strong> ${docente.corso}</li>
+            </ul>
+          `;
+        })
+        .catch(err => {
+          document.getElementById('infoDocente').textContent = err.message;
+        });
+    }
+  </script>
+</body>
+</html>
