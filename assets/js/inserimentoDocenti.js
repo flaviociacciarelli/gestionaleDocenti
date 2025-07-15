@@ -1,3 +1,4 @@
+
 document.getElementById("formDocente").addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -13,6 +14,12 @@ document.getElementById("formDocente").addEventListener("submit", function (e) {
   };
   const formatoLocale = new Intl.DateTimeFormat('it-IT', opzioni).formatToParts(now);
   const parti = Object.fromEntries(formatoLocale.map(({ type, value }) => [type, value]));
+
+  function giraData(data) {
+    const arrayData = data.split("-").reverse();
+    const dataCorretta = `${arrayData[0]}-${arrayData[1]}-${arrayData[2]}`;
+  }
+
   const dati = {
     infoPersonali: {
       nome: document.getElementById("nome").value.trim(),
@@ -20,7 +27,7 @@ document.getElementById("formDocente").addEventListener("submit", function (e) {
       sesso: document.getElementById("sesso").value.trim(),
       email: document.getElementById("email").value.trim(),
       telefono: document.getElementById("telefono").value.trim(),
-      dataNascita: document.getElementById("dataNascita").value.trim(),
+      dataNascita: giraData(document.getElementById("dataNascita").value.trim()),
       cf: document.getElementById("cf").value.trim(),
     },
 
@@ -28,7 +35,7 @@ document.getElementById("formDocente").addEventListener("submit", function (e) {
       materiaInsegnata: document
         .getElementById("materiaInsegnata")
         .value.trim(),
-      dataAssunzione: document.getElementById("dataAssunzione").value.trim(),
+      dataAssunzione: giraData(document.getElementById("dataAssunzione").value.trim()),
     },
 
     residenza: {
