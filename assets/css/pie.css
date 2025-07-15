@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#charts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+.chart-container {
+  width: 450px;
+}
+tr{
+    display: flex;
+}
+
+#thead{
+    padding: 0;
+    width: 141.521px;
+    height: 48px;
+}
+
+#striped{
+    background-color: #F2F2F2;
+}
+
+td{
+    width: 141.521px;
+    padding: 0;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.tdNome{
+    width: 129.6px;
+}
+
+
