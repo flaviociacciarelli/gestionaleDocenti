@@ -1,7 +1,10 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
 #charts {
   display: flex;
   justify-content: center;
@@ -9,32 +12,38 @@ body {
   gap: 40px;
   margin-top: 40px;
 }
+
 .chart-container {
   width: 450px;
 }
-tr{
-    display: flex;
+
+table {
+  width: 100%;
 }
 
-#thead{
-    padding: 0;
-    width: 141.521px;
-    height: 48px;
+tr {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#striped{
-    background-color: #F2F2F2;
+#thead {
+  width: 141.52px;
+  height: 48px;
+  padding: 0;
 }
 
-td{
-    width: 141.521px;
-    padding: 0;
-    overflow: hidden;
-    word-wrap: break-word;
+#striped {
+  background-color: #f2f2f2;
 }
 
-.tdNome{
-    width: 129.6px;
+td {
+  width: 141.52px;
+  padding: 0;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
+.tdNome {
+  width: 129.6px;
+}
 
